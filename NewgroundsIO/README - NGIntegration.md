@@ -39,22 +39,19 @@ Session_id is the id of your sessions when your logged in the app, it fills out 
 
 5. Now, onto the code stuff.
 
-All the methods you need to do stuff are on the `NewgroundsMethods.cs` file, but to access to it i recommend etter using the `NewgroundsManager` class so you can access the NGMethods AND the variables on the NGManager, to add references to this in your script do this:
+All the methods you need to do stuff are on the `NewgroundsMethods.cs` file, but to access to it i recommend etter using the `NewgroundsManager.cs` class so you can access the NGMethods AND the variables on the NGManager, to add references to this in your script do this:
 
 To check these scripts by youeself go here:
 
-- [NEWGROUNDS MANAGER](./NewgroudsTesting/Assets/Scripts/NewgroundsManager.cs)
-- [NEWGROUNDS METHODS](./NewgroudsTesting/Assets/Scripts/NewgroundsMethods.cs)
+> [NEWGROUNDS MANAGER](./NewgroudsTesting/Assets/Scripts/NewgroundsManager.cs) /
+> [NEWGROUNDS METHODS](./NewgroudsTesting/Assets/Scripts/NewgroundsMethods.cs)
 
-
-- Make an empty gameObject (you can delete the transform if you want) and add the `NewgroundsManager` and the `NewgroundsMethod` scripts
+- Make an empty gameObject (you can delete the transform if you want) and add the `NewgroundsManager.cs` and the `NewgroundsMethod.cs` scripts
 
 - And then fill in the references of the scripts and objects
-
 <img src = "https://media.discordapp.net/attachments/911301579938873406/960323638026981396/unknown.png">
 
 - On the script you want to add newgrounds stuff to add a serialized NewgroundsManager and call it wharever you want
-
 ```cs
 using System.Collections;
 using System.Collections.Generic;
