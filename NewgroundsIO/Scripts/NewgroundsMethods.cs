@@ -20,13 +20,6 @@ public class NewgroundsMethods : MonoBehaviour
 			else {
 				RequestLogin();
 			}
-			
-			// If you press escape it ends your session
-			// if (Input.GetKeyDown(KeyCode.Escape)) {
-			// 	Debug.Log("Ended session");
-			// 	ngManager.NGcore.logOut();
-			// 	ngManager.IsLoggedIn = false;
-			// }
 		});
 	}
 
